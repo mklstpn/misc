@@ -1,0 +1,55 @@
+<!doctype html>
+
+<html>
+
+<head>
+  <title>Какие-то коды</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Какие-то коды">
+  <meta name="author" content="yolololalo">
+  <meta name='viewport' content='width=device-width,initial-scale=1' />
+  <meta content='true' name='HandheldFriendly' />
+  <meta content='width' name='MobileOptimized' />
+  <meta content='yes' name='apple-mobile-web-app-capable' />
+
+  <link rel="stylesheet" href="sasha_css/styles.css?v=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+  <nav>
+    <div class="nav-wrapper blue">
+      <a href="#" class="brand-logo center">Коды</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row">
+      <div class="row">
+        <div class="col s12">
+        </div>
+      </div>
+      <div class="col s10">
+        <form name="connect" action="get.php" method="post">
+          <div class="row">
+            <div class="input-field col s12">
+              <i class="material-icons prefix">mode_edit</i>
+              <input id="item" type="text" class="validate" name="username">
+              <label for="item">Что ищем?</label>
+            </div>
+          </div>
+          <div class="col s12">
+            <button class="btn waves-effect waves-light green offset-s3" type="submit" name="action">Отправить
+              <i class="material-icons right">send</i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>
